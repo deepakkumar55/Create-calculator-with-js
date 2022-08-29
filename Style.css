@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500&family=Kalam&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#background {
+    background-color: rgb(167, 160, 160);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    height: 90%;
+    width: 35%;
+    border: rgb(8, 8, 8) solid 1px;
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05),
+        15px 25px 10px rgba(0, 0, 0, 0.05),
+        15px 20px 20px rgba(0, 0, 0, 0.05),
+        inset -10px -10px 15px rgba(255, 255, 255, 0.09);
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px 1px black;
+}
+
+#nav {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+#nav i {
+    font-size: 35px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+#nav h3 {
+    font-family: 'DynaPuff', cursive;
+    padding-top: 10px;
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+#nav h1 {
+    font-size: 12px;
+    padding-left: 35px;
+    padding-top: 40px;
+    font-weight: 10;
+    font-family: 'Kalam', cursive;
+    letter-spacing: 1.5px;
+    color: white;
+
+}
+
+#calculate {
+    border-bottom: 1px solid black;
+    height: 15%;
+    text-align: center;
+    margin-top: 23px;
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05), 15px 25px 10px rgba(0, 0, 0, 0.05), 15px 20px 20px rgba(0, 0, 0, 0.05), inset -10px -10px 15px rgba(255, 255, 255, 0.09);
+    width: 100%;
+}
+
+#table {
+    margin: auto;
+
+}
+
+input {
+    border-radius: 10px;
+    border: 1px solid #244624;
+    font-size: 34px;
+    height: 100px;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50px 0px 50px 0px;
+    font-size: 50px;
+    width: 104px;
+    height: 72px;
+    margin: 6px;
+    padding-left: 2%;
+    text-shadow: -2px -2ppx 5px #fff;
+    filter: drop-shadow(4px 4x 10px #fff);
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05), 15px 25px 10px rgba(0, 0, 0, 0.05), 15px 20px 20px rgba(0, 0, 0, 0.05), inset -10px -10px 15px rgba(255, 255, 255, 0.09);
+}
+
+button:hover {
+    background-color: #000;
+    color: white;
+    text-shadow: -2px -2ppx 5px rgb(0, 0, 0);
+    filter: drop-shadow(4px 4x 10px #000);
+    box-shadow: inset 10px 10px 10px rgba(12, 10, 10, 0.05), 15px 25px 10px rgba(7, 6, 6, 0.05), 15px 20px 20px rgba(19, 15, 15, 0.05), inset -10px -10px 15px rgba(245, 214, 214, 0.09);
+}
